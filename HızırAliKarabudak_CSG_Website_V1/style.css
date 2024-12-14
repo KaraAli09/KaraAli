@@ -1,0 +1,101 @@
+#top-container {
+  min-height: 50px;
+  margin:0;
+  display: flex;
+  background-color: #ffffff
+}
+
+.top-name-box{
+  color: #333; 
+  height: 200px; 
+  font-size: 3em;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.top-icon-box {
+  background-color: #ffff;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+}
+
+.icon-link {
+  font-size: 25px;
+  color: #c7878e; 
+  text-decoration: none; 
+  transition: transform 0.2s ease, color 0.2s ease; 
+}
+
+.icon-link:hover {
+  color: #333;
+  transform: scale(1.2); 
+}
+
+.empty-for-now-box {
+  background-color: #ffff;
+}
+
+.faculty-glyphic-regular {
+  font-family: "Faculty Glyphic", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+#profile-container {
+  max-height: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.profile-photo {
+  background-color: #ffff;
+  max-width: 100%; 
+  display: flex; 
+}
+
+.profile-info-box {
+  background-color: #fcdde0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  text-align: left; 
+  padding: 40px;
+}
+
+.white-space {
+  background-color: #ffff;
+}
+
+#bio-container {
+  background-color: #ffff;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.bio-box {
+  color: #333; 
+  background-color: #fcdde0;
+  padding: 20px;
+}
+
+/* Small Screens ONLY (Below 768px) */
+@media (max-width: 767px) {
+  .profile-photo {
+    margin-left: 40px; /* Space on both sides for small screens */
+    margin-right: 57px;
+  }
+  .profile-info-box {
+    margin-left: 40px;
+    margin-right: 57px;
+  }
+  .bio-box {
+    margin-left: 40px;
+    margin-right: 57px;
+  }
+}
